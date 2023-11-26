@@ -11,6 +11,21 @@ import GameKit
 class GameScene: SKScene {
     
     
+    class func newGameScene() -> GameScene {
+        // Load 'GameScene.sks' as an SKScene.
+        guard let scene = SKScene(fileNamed: "GameScene") as? GameScene else {
+            print("Failed to load GameScene.sks")
+            abort()
+        }
+        
+        // Set the scale mode to scale to fit the window
+        scene.scaleMode = .aspectFill
+        
+        return scene
+    }
+    
+    
+    
     var touchBall: Bool = false
     var ball: SKShapeNode!
     var circle: SKShapeNode!
@@ -58,15 +73,15 @@ class GameScene: SKScene {
     
 
     func createJoyStick() {
-        ball = SKShapeNode(circleOfRadius: 30)
+        ball = SKShapeNode(circleOfRadius: 40)
         ball.name = "ball"
         ball.zPosition = 2
-        ball.position = CGPoint(x:-self.size.width*0.3,y:-size.height*0.3)
+        ball.position = CGPoint(x:-self.size.width*0.3,y:-size.height*0.2)
         ball.fillColor = .white
         ball.strokeColor = .white
         cameraNode.addChild(ball)
 
-        circle = SKShapeNode(circleOfRadius: 70)
+        circle = SKShapeNode(circleOfRadius: 90)
         circle.fillColor = .clear
         circle.strokeColor = .white
         circle.lineWidth = 5
@@ -74,6 +89,26 @@ class GameScene: SKScene {
         cameraNode.addChild(circle)
         
         
+    }
+    
+    //Wall func
+    
+    func wallCheck(){
+        let bottomLeft = CGPoint(x:-850, y:-480)
+        let topRight = CGPoint(x:780,y:600)
+    
+        if player.position.x  <= bottomLeft.x{
+            player.position.x  = bottomLeft.x
+        }
+        if player.position.x >= topRight.x{
+            player.position.x = topRight.x
+        }
+        if player.position.y  <= bottomLeft.y{
+            player.position.y  = bottomLeft.y
+        }
+        if player.position.y >= topRight.y{
+            player.position.y = topRight.y
+        }
     }
     
     
@@ -154,6 +189,7 @@ class GameScene: SKScene {
             
             player.position = CGPoint(x: cos(angle)*5 + player.position.x, y: sin(angle)*5 + player.position.y)
             cameraNode.position = player.position
+            wallCheck()
         }
         
         

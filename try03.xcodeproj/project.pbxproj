@@ -12,17 +12,9 @@
 		73880CD02B077BC0005D2C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73880CCE2B077BC0005D2C01 /* Main.storyboard */; };
 		73880CD32B077BC0005D2C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73880CD12B077BC0005D2C01 /* LaunchScreen.storyboard */; };
 		73880CF22B077BC0005D2C01 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73880CBF2B077BBE005D2C01 /* Actions.sks */; };
-		73880CF32B077BC0005D2C01 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73880CBF2B077BBE005D2C01 /* Actions.sks */; };
-		73880CF42B077BC0005D2C01 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73880CBF2B077BBE005D2C01 /* Actions.sks */; };
 		73880CF52B077BC0005D2C01 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73880CC02B077BBE005D2C01 /* GameScene.sks */; };
-		73880CF62B077BC0005D2C01 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73880CC02B077BBE005D2C01 /* GameScene.sks */; };
-		73880CF72B077BC0005D2C01 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73880CC02B077BBE005D2C01 /* GameScene.sks */; };
 		73880CF82B077BC0005D2C01 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73880CC12B077BBE005D2C01 /* GameScene.swift */; };
-		73880CF92B077BC0005D2C01 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73880CC12B077BBE005D2C01 /* GameScene.swift */; };
-		73880CFA2B077BC0005D2C01 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73880CC12B077BBE005D2C01 /* GameScene.swift */; };
 		73880CFB2B077BC0005D2C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73880CC22B077BC0005D2C01 /* Assets.xcassets */; };
-		73880CFC2B077BC0005D2C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73880CC22B077BC0005D2C01 /* Assets.xcassets */; };
-		73880CFD2B077BC0005D2C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73880CC22B077BC0005D2C01 /* Assets.xcassets */; };
 		73D7764E2B0CD04400A903C0 /* Ground.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73D7764C2B0CD04400A903C0 /* Ground.sks */; };
 		73D7764F2B0CD04400A903C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73D7764D2B0CD04400A903C0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -37,28 +29,12 @@
 		73880CCC2B077BC0005D2C01 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		73880CCF2B077BC0005D2C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73880CD22B077BC0005D2C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		73880CD82B077BC0005D2C01 /* try03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = try03.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		73880CE82B077BC0005D2C01 /* try03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = try03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D7764C2B0CD04400A903C0 /* Ground.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Ground.sks; sourceTree = "<group>"; };
 		73D7764D2B0CD04400A903C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		73880CC42B077BC0005D2C01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73880CD52B077BC0005D2C01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73880CE52B077BC0005D2C01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				73880CC72B077BC0005D2C01 /* try03.app */,
-				73880CD82B077BC0005D2C01 /* try03.app */,
-				73880CE82B077BC0005D2C01 /* try03.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,40 +105,6 @@
 			productReference = 73880CC72B077BC0005D2C01 /* try03.app */;
 			productType = "com.apple.product-type.application";
 		};
-		73880CD72B077BC0005D2C01 /* try03 tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 73880D032B077BC0005D2C01 /* Build configuration list for PBXNativeTarget "try03 tvOS" */;
-			buildPhases = (
-				73880CD42B077BC0005D2C01 /* Sources */,
-				73880CD52B077BC0005D2C01 /* Frameworks */,
-				73880CD62B077BC0005D2C01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "try03 tvOS";
-			productName = "try03 tvOS";
-			productReference = 73880CD82B077BC0005D2C01 /* try03.app */;
-			productType = "com.apple.product-type.application";
-		};
-		73880CE72B077BC0005D2C01 /* try03 macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 73880D062B077BC0005D2C01 /* Build configuration list for PBXNativeTarget "try03 macOS" */;
-			buildPhases = (
-				73880CE42B077BC0005D2C01 /* Sources */,
-				73880CE52B077BC0005D2C01 /* Frameworks */,
-				73880CE62B077BC0005D2C01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "try03 macOS";
-			productName = "try03 macOS";
-			productReference = 73880CE82B077BC0005D2C01 /* try03.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,12 +116,6 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					73880CC62B077BC0005D2C01 = {
-						CreatedOnToolsVersion = 14.3.1;
-					};
-					73880CD72B077BC0005D2C01 = {
-						CreatedOnToolsVersion = 14.3.1;
-					};
-					73880CE72B077BC0005D2C01 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -200,8 +134,6 @@
 			projectRoot = "";
 			targets = (
 				73880CC62B077BC0005D2C01 /* try03 iOS */,
-				73880CD72B077BC0005D2C01 /* try03 tvOS */,
-				73880CE72B077BC0005D2C01 /* try03 macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -221,26 +153,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73880CD62B077BC0005D2C01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73880CF62B077BC0005D2C01 /* GameScene.sks in Resources */,
-				73880CF32B077BC0005D2C01 /* Actions.sks in Resources */,
-				73880CFC2B077BC0005D2C01 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73880CE62B077BC0005D2C01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73880CF72B077BC0005D2C01 /* GameScene.sks in Resources */,
-				73880CFD2B077BC0005D2C01 /* Assets.xcassets in Resources */,
-				73880CF42B077BC0005D2C01 /* Actions.sks in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -251,22 +163,6 @@
 				73880CF82B077BC0005D2C01 /* GameScene.swift in Sources */,
 				73880CCD2B077BC0005D2C01 /* GameViewController.swift in Sources */,
 				73880CCB2B077BC0005D2C01 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73880CD42B077BC0005D2C01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73880CF92B077BC0005D2C01 /* GameScene.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73880CE42B077BC0005D2C01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73880CFA2B077BC0005D2C01 /* GameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +310,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,7 +338,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,113 +351,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		73880D042B077BC0005D2C01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.try03";
-				PRODUCT_NAME = try03;
-				SDKROOT = appletvos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 16.4;
-			};
-			name = Debug;
-		};
-		73880D052B077BC0005D2C01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.try03";
-				PRODUCT_NAME = try03;
-				SDKROOT = appletvos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 16.4;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		73880D072B077BC0005D2C01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "try03 macOS/try03_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.try03";
-				PRODUCT_NAME = try03;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		73880D082B077BC0005D2C01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "try03 macOS/try03_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.try03";
-				PRODUCT_NAME = try03;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -584,24 +371,6 @@
 			buildConfigurations = (
 				73880D012B077BC0005D2C01 /* Debug */,
 				73880D022B077BC0005D2C01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		73880D032B077BC0005D2C01 /* Build configuration list for PBXNativeTarget "try03 tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				73880D042B077BC0005D2C01 /* Debug */,
-				73880D052B077BC0005D2C01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		73880D062B077BC0005D2C01 /* Build configuration list for PBXNativeTarget "try03 macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				73880D072B077BC0005D2C01 /* Debug */,
-				73880D082B077BC0005D2C01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
